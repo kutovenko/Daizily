@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Дэйзили</string>
+    <string name="action_settings">Настройки</string>
+    <string name="hello_blank_fragment">Пустой фрагмент</string>
+    <string name="title_activity_nav">Вторая активити</string>
+    <string name="title_home">Сегодня</string>
+    <string name="title_dashboard">Завтра</string>
+    <string name="title_notifications">Настройки</string>
+</resources>

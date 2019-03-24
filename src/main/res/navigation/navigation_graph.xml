@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation_graph"
+            app:startDestination="@id/todayFragment">
+
+    <fragment android:id="@+id/todayFragment" android:name="com.blogspot.alexeykutovenko.daizily.ui.fragment.TodayFragment"
+              android:label="fragment_today" tools:layout="@layout/fragment_today">
+        <action android:id="@+id/action_blankFragment_to_secondFragment" app:destination="@id/tomorrowFragment"/>
+        <action android:id="@+id/action_todayFragment_to_settingsFragment" app:destination="@id/settingsFragment"/>
+        <action android:id="@+id/action_todayFragment_to_editFragment" app:destination="@id/editFragment"/>
+    </fragment>
+    <fragment android:id="@+id/tomorrowFragment"
+              android:name="com.blogspot.alexeykutovenko.daizily.ui.fragment.TomorrowFragment"
+              android:label="fragment_tomorrow" tools:layout="@layout/fragment_tomorrow">
+        <action android:id="@+id/action_tomorrowFragment_to_editFragment" app:destination="@id/editFragment"/>
+    </fragment>
+    <fragment android:id="@+id/settingsFragment"
+              android:name="com.blogspot.alexeykutovenko.daizily.ui.fragment.SettingsFragment"
+              android:label="fragment_tomorrow" tools:layout="@layout/fragment_settings"/>
+    <fragment android:id="@+id/editFragment" android:name="com.blogspot.alexeykutovenko.daizily.ui.fragment.EditFragment"
+              android:label="fragment_edit" tools:layout="@layout/fragment_edit"/>
+</navigation>

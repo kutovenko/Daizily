@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Daizily</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="title_home">Today</string>
+    <string name="title_dashboard">Tomorrow</string>
+    <string name="title_notifications">Settings</string>
+</resources>
